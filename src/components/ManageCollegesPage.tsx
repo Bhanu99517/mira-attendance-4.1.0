@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Icons } from '../src/constants';
-import { College, User, Role } from '../src/types';
-import { getColleges, addCollege, updateCollege, deleteCollege, getUsers, updateUser, addUser } from '../src/services';
+import { Icons } from '../constants';
+import { College, User, Role } from '../types';
+import { getColleges, addCollege, updateCollege, deleteCollege, getUsers, updateUser, addUser } from '../services';
 import { Modal, RolePill } from '../components';
 
 const ManageCollegesPage: React.FC = () => {
