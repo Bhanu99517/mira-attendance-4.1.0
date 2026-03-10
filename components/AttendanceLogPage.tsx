@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
-import type { User, AttendanceRecord } from '../types';
-import { Branch, Role } from '../types';
+import type { User, AttendanceRecord } from '../src/types';
+import { Branch, Role } from '../src/types';
 import { 
     getStudentByPin, 
     getUserByPin,
@@ -14,8 +14,8 @@ import {
     CAMPUS_LON, 
     CAMPUS_RADIUS_KM, 
     cogniCraftService 
-} from '../services';
-import { Icons } from '../constants';
+} from '../src/services';
+import { Icons } from '../src/constants';
 import { Modal, PermissionsPrompt } from '../components';
 
 // --- LOCAL ICONS ---

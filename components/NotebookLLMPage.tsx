@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Icons } from '../constants';
-import { PPTContent, QuizContent, LessonPlanContent, LLMOutput } from '../types';
-import { cogniCraftService } from '../services';
+import { Icons } from '../src/constants';
+import { PPTContent, QuizContent, LessonPlanContent, LLMOutput } from '../src/types';
+import { cogniCraftService } from '../src/services';
 import { ActionCard } from '../components';
 
 // Type guards for LLM output

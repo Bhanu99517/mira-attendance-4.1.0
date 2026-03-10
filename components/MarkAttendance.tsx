@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { User } from '../types';
-import { getStudentByPin, getDistanceInKm, CAMPUS_LAT, CAMPUS_LON, CAMPUS_RADIUS_KM, cogniCraftService, markAttendance as apiMarkAttendance } from '../services';
+import { User } from '../src/types';
+import { getStudentByPin, getDistanceInKm, CAMPUS_LAT, CAMPUS_LON, CAMPUS_RADIUS_KM, cogniCraftService, markAttendance as apiMarkAttendance } from '../src/services';
 
 // Helper to convert blob to data URL for AI service
 const blobToDataUrl = (blob: Blob): Promise<string> => new Promise((resolve, reject) => {

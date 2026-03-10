@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import type { User, AppSettings } from '../types';
-import { getSettings, updateSettings, updateUser, cogniCraftService } from '../services';
-import { Icons } from '../constants';
+import type { User, AppSettings } from '../src/types';
+import { getSettings, updateSettings, updateUser, cogniCraftService } from '../src/services';
+import { Icons } from '../src/constants';
 
 const SettingsSection: React.FC<{ title: string; description: string; children: React.ReactNode }> = ({ title, description, children }) => (
     <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-lg">

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import type { User, Timetable } from '../types';
-import { Role, Branch } from '../types';
-import { getTimetable, setTimetable as apiSetTimetable } from '../services';
-import { Icons } from '../constants';
+import type { User, Timetable } from '../src/types';
+import { Role, Branch } from '../src/types';
+import { getTimetable, setTimetable as apiSetTimetable } from '../src/services';
+import { Icons } from '../src/constants';
 import { Modal } from '../components';
 
 const TimetablesPage: React.FC<{ user: User }> = ({ user }) => {
