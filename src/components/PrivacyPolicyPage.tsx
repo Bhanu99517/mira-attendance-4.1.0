@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icons } from '../src/constants';
+import { Icons } from '../constants';
 
 const PrivacyPolicyPage: React.FC = () => {
   return (
